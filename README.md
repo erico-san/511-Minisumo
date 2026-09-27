@@ -63,7 +63,7 @@ Las llantas solo podrían transmitir toda la potencia por un solo punto, no se p
 
 ## Sobre los motores
 
-Se usan los chihai 6v 35:1 1672. A 12v tienen 1140RPM en vacío y 3.0kg-cm de torque en stall. También manejan hasta 6.8A pero como el torque del motor está limitado por el coeficiente de fricción de las llantas, asumiendo el peor escenario donde cada llanta se reparte 250 gramos de peso y sus coeficientes de fricción son de 2.0 a lo mucho consume 0.82.kg-cm y 1.9A máximos teóricos, por eso con unos drv8871 configurados a un pico de 3.6A están bien. Son los motores en aliexpress que más se acercan a los parámetros de jsumo (16USD) pero por la mitad de su precio (8USD).
+Se usan los chihai 6v 35:1 1672. A 12v tienen 1140RPM en vacío y 3.0kg-cm de torque en stall. También manejan hasta 6.8A pero como el torque del motor está limitado por el coeficiente de fricción de las llantas, asumiendo el peor escenario de COF = 2.0, el torque maximo que ejerce el motor esta limitado a 0.41.kg-cm y consumiría una corriente maxima de 0.94A, por eso con unos drv8871 configurados a un pico de 3.6A están bien. Son los motores en aliexpress que más se acercan a los parámetros de jsumo (16USD) pero por la mitad de su precio (8USD).
 
 <img width="452" height="147" alt="Especificaciones de motores chihai 6v 1672 35:1 para robot de competencia" src="https://github.com/user-attachments/assets/704b2b48-a4d5-4103-9ebe-9a8e88f48ee1" />
 
